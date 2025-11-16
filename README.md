@@ -6,7 +6,7 @@
 
 The project used a Kaggle dataset with 6,607 student records to figure out what factors influence exam scores. This data included 20 different features for each student, such as their study hours, attendance, and parental involvement. Before building any models, the data was cleaned by filling in a small amount of missing information and checking for any duplicate rows.
 
-The main goal was to predict a student's Exam_Score. To do this, seven different types of regression models were built and compared, including simple, multiple, and polynomial models. A key step was "feature engineering," which involved converting all 20 data columns into 24 usable features for the models to analyze.
+The main goal was to predict a student's Exam_Score. To do this, different types of regression models were built and compared, including simple, multiple, and polynomial models. A key step was "feature engineering," which involved converting all 20 data columns into 24 usable features for the models to analyze.
 
 The results showed that the number of features was the most critical factor. A model using only one feature performed poorly, but models using all 24 features saw a massive 121% improvement. The most complex model (Polynomial Degree 3) failed completely, performing just as badly as the simplest one. The best models—Lasso, Ridge, and standard Multiple Linear—all performed equally well, explaining about 77% of the score variance and predicting scores with an average error of just ±1.8 points.
 
